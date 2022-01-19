@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Receipe</title>
+    <link rel="stylesheet" href="page2.css" />
+  </head>
+  <body>
+    <div class="top">
+      <div class="header">
+        <div class="title">
+          <img src="/img/Yummy.svg" alt="Yummy-logo" />
+        </div>
+        <div class="header-content">
+          <p>Home</p>
+          <p>Receipe</p>
+        </div>
+      </div>
+    </div>
+    <section class="new-receipe">
+      <div class="head-content">
+        <h1>New Receipe</h1>
+      </div>
+    </section>
+
+    <section class="main-content">
+      <div class="main-main">
+        <div class="link">
+          <a class="link-one" href="http://127.0.0.1:5500/receipe.html">
+            < Back to home
+          </a>
+        </div>
+        <h2 class="heading">Add your new recipe</h2>
+        <form id="add-recipe-form">
+          <div class="receipe">
+            <label for="nameofreceipe">Name of your recipe</label>
+            <input type="text" id="nameofreceipe" />
+          </div>
+          <div class="receipe">
+            <label for="receipeimage">Recipe image</label>
+            <input type="text" id="receipeimage" />
+          </div>
+          <div class="text-right">
+            <button class="btn">UPLOAD</button>
+          </div>
+          <div class="food-type">
+            <p>Food Type</p>
+            <div class="rdo">
+              <input type="radio" name="veg" id="vegetarian" />
+              <label for="vegetarian">Vegetarian</label>
+            </div>
+            <div class="rdo">
+              <input type="radio" name="veg" id="vegetarian" />
+              <label for="non-vegetarian">Non-Vegetarian</label>
+            </div>
+          </div>
+          <div class="ingredients">
+            <label for="r-ing">Ingredients required </label>
+            <textarea name="Ing-req" id="r-ing" cols="30" rows="10"></textarea>
+          </div>
+          <div class="steps">
+            <label for="steps-to-follow">Steps to Prepare </label>
+            <textarea
+              name="steps-to-follow"
+              id="steps-to-follow"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+          <div class="last-btn">
+            <a href="http://127.0.0.1:5500/page3.html"
+              ><button class="add-rec-btn">ADD RECEIPE</button></a
+            >
+          </div>
+        </form>
+      </div>
+    </section>
+    <footer class="foot">
+      <div class="foot-one">
+        <div class="foot-two">
+          <div class="foot-img">
+            <h2>Yummy</h2>
+          </div>
+          <div class="foot-center">
+            <p>Home</p>
+            <p>Receipe</p>
+          </div>
+          <div class="foot-social-logo">
+            <img
+              src="/img/Group 14@2x.png"
+              alt="facebook"
+              width="35px"
+              height="35px"
+            />
+            <img
+              src="/img/Group 12@2x.png"
+              alt="twitter"
+              width="35px"
+              height="35px"
+            />
+            <img
+              src="/img/Group 16@2x.png"
+              alt="instagram"
+              width="35px"
+              height="35px"
+            />
+          </div>
+        </div>
+        <div class="line"></div>
+        <div class="foot-last">
+          <p>©2022 by yummy.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

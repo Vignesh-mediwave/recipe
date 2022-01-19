@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+body {
+  background-color: #f2f2f2;
+}
+.top {
+  background-color: aliceblue;
+}
+.header {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 20px 0 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.header-content {
+  display: flex;
+  justify-content: center;
+}
+.header-content p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 94px;
+  height: 36px;
+  text-align: center;
+  border-radius: 33px;
+}
+.calm {
+  background-image: url(/img/claudio-schwarz-4qJlXK4mYzU-unsplash@2x.png);
+  padding: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1900px;
+  backdrop-filter: blur(8px);
+  margin-bottom: 45px;
+}
+.calm h1 {
+  color: white;
+  text-align: center;
+  font-size: 45px;
+}
+.main-content {
+  max-width: 80%;
+  margin: 20px auto;
+}
+.add-img {
+  display: flex;
+  align-items: baseline;
+}
+.image-one {
+  background-image: url(/img/claudio-schwarz-4qJlXK4mYzU-unsplash@2x.png);
+  padding: 120px;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 1010px;
+  margin-right: 110px;
+}
+.txt-area-one {
+  font-size: 1.3em;
+  font-weight: 600;
+}
+.txt-area-one label {
+  display: block;
+  margin-bottom: 15px;
+}
+.txt-area-two {
+  font-size: 1.3em;
+  font-weight: 600;
+}
+.txt-area-two label {
+  display: block;
+  margin-bottom: 15px;
+}
+.home-link {
+  color: black;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.foot {
+  background-color: rgb(6, 6, 78);
+  margin-top: 50px;
+}
+.foot-one {
+  background-color: rgb(6, 6, 78);
+  color: white;
+  width: 80%;
+  margin: auto;
+}
+.foot-two {
+  display: flex;
+  justify-content: space-between;
+}
+.foot-last {
+  text-align: center;
+}
+.foot-center {
+  display: flex;
+  justify-content: space-between;
+}
+.foot-center p {
+  padding: 0px 15px;
+}
+.line {
+  border-bottom: 1px solid rgb(247, 244, 244);
+}
+.grid {
+  width: 960px;
+  height: 238px;
+  background-color: white;
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 2.1;
+  padding: 15px;
+  padding-left: 40px;
+}
+.main-section {
+  background-color: #f2f2f2;
+}
+.grid-one {
+  width: 960px;
+  height: 238px;
+  background-color: white;
+  font-size: 18px;
+  line-height: 2.1;
+  padding: 15px;
+  padding-left: 40px;
+}
+.txt-one {
+  font-size: 18px;
+  font-weight: bold;
+}
+.txt-two {
+  font-size: 18px;
+  font-weight: bold;
+}
+.grid p {
+}
+.lik {
+  color: black;
+}

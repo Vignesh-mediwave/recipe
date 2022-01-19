@@ -1,0 +1,193 @@
+body {
+  background-color: #f2f2f2;
+}
+
+.top {
+  background-color: aliceblue;
+  border-bottom: 1px solid greenyellow;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+.header {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 20px 0 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.header-content {
+  display: flex;
+  justify-content: center;
+}
+.header-content p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 94px;
+  height: 36px;
+  text-align: center;
+  border-radius: 33px;
+}
+
+.new-receipe {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
+    url(/img/leo-roza-P_z_xlMGuEk-unsplash@2x.png);
+  background-position: center;
+  padding: 80px;
+  opacity: 90%;
+  color: aliceblue;
+  text-align: center;
+  font-size: 35px;
+  font-family: poppins;
+  background-size: cover;
+}
+.footer {
+  background-color: rgb(6, 6, 77);
+  margin: 0 auto;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-yummy {
+  color: white;
+}
+.footer-center {
+  color: white;
+  display: flex;
+}
+.footer-center p {
+  width: 60px;
+  height: 36px;
+}
+.heading {
+  color: rgb(7, 7, 73);
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+.main-content {
+  width: 80%;
+  margin: 40px auto;
+  background-color: #f2f2f2;
+}
+.main-main {
+  background-color: #f2f2f2;
+}
+
+.receipe {
+  margin: 25px 0px;
+  font-size: 16px;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+.receipe label {
+  display: block;
+  margin-bottom: 15px;
+}
+.text-right {
+  text-align: right;
+  width: 510px;
+}
+.btn {
+  background-color: #00b158;
+  color: aliceblue;
+  border-radius: 35px;
+  font-size: 1.1em;
+  border-color: none;
+  height: 40px;
+  width: 130px;
+  outline-style: auto;
+}
+.receipe input {
+  border-radius: 35px;
+  font-size: 1.3em;
+  width: 500px;
+  height: 45px;
+}
+.food-type {
+  font-size: 1.3em;
+}
+.rdo {
+  margin: 25px;
+}
+.food-type p {
+  font-weight: 600;
+}
+.link {
+  font-size: 1.2em;
+  color: black;
+  font-weight: bold;
+}
+.link a {
+  color: black;
+}
+.ingredients label {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.ingredients {
+  font-size: 1.3em;
+  font-weight: 600;
+}
+.ingredients textarea {
+  width: 500px;
+  height: 140px;
+  border-radius: 30px;
+  resize: none;
+  outline: none;
+}
+
+.steps label {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.steps {
+  font-size: 1.3em;
+  font-weight: 600;
+}
+.steps textarea {
+  width: 500px;
+  height: 272px;
+  border-radius: 30px;
+  resize: none;
+  outline: none;
+  margin-bottom: 21px;
+}
+.main-content {
+  background-color: white;
+}
+
+.add-rec-btn {
+  background-color: #00b158;
+  padding: 10px;
+  border-radius: 25px;
+  color: white;
+}
+.foot {
+  background-color: rgb(6, 6, 78);
+}
+.foot-one {
+  background-color: rgb(6, 6, 78);
+  color: white;
+  width: 80%;
+  margin: auto;
+}
+.foot-two {
+  display: flex;
+  justify-content: space-between;
+}
+.foot-last {
+  text-align: center;
+}
+.foot-center {
+  display: flex;
+  justify-content: space-between;
+}
+.foot-center p {
+  padding: 0px 15px;
+}
+.line {
+  border-bottom: 1px solid rgb(247, 244, 244);
+}

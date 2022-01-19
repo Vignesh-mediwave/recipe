@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+body {
+  background-color: #f2f2f2;
+}
+.top {
+  background-color: aliceblue;
+  border-bottom: 1px solid greenyellow;
+}
+.header {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 20px 0 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.header-content {
+  display: flex;
+  justify-content: center;
+}
+.header-content p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 94px;
+  height: 36px;
+  text-align: center;
+  border-radius: 33px;
+}
+
+.header-content p:nth-child(1) {
+  background-color: green;
+  color: aliceblue;
+}
+
+.content {
+  padding: 235px 0px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
+    url(/img/leo-roza-P_z_xlMGuEk-unsplash@2x.png);
+  background-position: center;
+
+  opacity: 60;
+  background-size: cover;
+  margin-bottom: 50px;
+}
+.body-content {
+  margin: 0 auto;
+  max-width: 718px;
+}
+.content h1 {
+  color: white;
+  font-size: 44px;
+  margin-left: 40px;
+}
+.content input {
+  max-width: 960px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.receipe-grid {
+  background-color: whitesmoke;
+  max-width: 100%;
+  margin: auto;
+}
+.receipe-grid h2 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #00b158;
+}
+.receipe-inside {
+  text-align: center;
+}
+.popular-receipe {
+  font-size: 38px;
+  font-weight: 600;
+}
+.primary-btn {
+  width: 200px;
+  height: 45px;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  background-color: #00b158;
+  border-radius: 33px;
+  outline: none;
+  border: Opx;
+  text-transform: uppercase;
+}
+.receipe-button {
+  text-align: right;
+  margin-bottom: 40px;
+  width: 1620px;
+}
+.receipe-card {
+  width: 343px;
+
+  border-radius: 15px;
+  box-shadow: 0px 3px 6px #00000029;
+}
+.name-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.receipe-card .contentone {
+  padding: 20px;
+}
+.cover-img {
+}
+.receipe-card-wrap {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-evenly;
+  grid-gap: 40px;
+  padding: 30px;
+}
+
+@media (max-width: 1200px) {
+  .receipe-card-wrap {
+    grid-template-columns: auto auto auto;
+    grid-gap: 28px 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .receipe-card-wrap {
+    grid-template-columns: auto auto;
+    grid-gap: 20px 0;
+  }
+}
+
+@media (max-width: 565px) {
+  .receipe-card-wrap {
+    grid-template-columns: auto;
+    grid-gap: 18px;
+  }
+}
+
+.foot {
+  background-color: rgb(6, 6, 78);
+  margin-top: 20px;
+}
+.foot-one {
+  background-color: rgb(6, 6, 78);
+  color: white;
+  width: 80%;
+  margin: auto;
+}
+.foot-two {
+  display: flex;
+  justify-content: space-between;
+}
+.foot-last {
+  text-align: center;
+}
+.foot-center {
+  display: flex;
+  justify-content: space-between;
+}
+.foot-center p {
+  padding: 0px 15px;
+}
+.line {
+  border-bottom: 1px solid rgb(247, 244, 244);
+}
+.ip-box {
+  position: relative;
+  max-width: 600px;
+  margin: auto;
+}
+.search {
+  position: absolute;
+  top: 16px;
+  right: 22px;
+  cursor: pointer;
+}
+.ip-box input {
+  width: 505px;
+  height: 50px;
+  padding: 0px 45px 0px 40px;
+}
